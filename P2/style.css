@@ -1,0 +1,38 @@
+/* This is a CSS comment. Notice that CSS comments are
+enclosed by different characters than HTML comments. */
+
+/* CSS allows you to give your page style (colors, shapes, fonts, etc.)
+You can apply CSS elements to entire HTML classes.*/
+
+body {
+    background-color: black;
+}
+p {
+  color : green;
+  font-weight: bold;
+  text-align: center;
+}
+h1 {
+    background-color: red;
+    color: white;
+    text-align:center;
+    border: 3px solid green;
+}
+h2 {
+    color: red;
+    text-align: center;
+}
+.pinkparagraphs{
+  background-color: pink;
+
+}
+.yellowheaders{
+color:yellow;
+}
+.italicparagraphs{
+  font-style: italic;
+}
+.stickman{
+  color:white;
+  text-align: center;
+}
