@@ -56,10 +56,10 @@ function findMatch() {
       // If classes don't match, add "wrong" class
       openCard[0][0].classList.add("shake", "wrong");
       openCard[1][0].classList.add("shake", "wrong");
-      // Set timeout to remove "show" and "open" class
-      setTimeout(removeClasses, 1100);
       // Reset openCard.length to 0
-      setTimeout(removeOpenCards, 1100);
+      setTimeout(removeOpenCards, 400);
+      // Set timeout to remove "show" and "open" class
+      setTimeout(removeClasses, 400);          
       moves++;
       }
     }
